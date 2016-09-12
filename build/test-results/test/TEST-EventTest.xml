@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="EventTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-09-10T18:54:47" hostname="Thomass-MacBook-Pro.local" time="0.003">
+<testsuite name="EventTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2016-09-12T10:52:10" hostname="Thomass-MacBook-Pro.local" time="0.007">
   <properties/>
-  <testcase name="calcPrice_return_int" classname="EventTest" time="0.003"/>
+  <testcase name="getEntertainment_getCorrectEntertainment_string" classname="EventTest" time="0.002"/>
+  <testcase name="calcPrice_returnPrice_int" classname="EventTest" time="0.0"/>
+  <testcase name="getFood_getCorrectFood_string" classname="EventTest" time="0.001"/>
+  <testcase name="getBeverages_getCorrectBeverages_string" classname="EventTest" time="0.001"/>
+  <testcase name="getGuests_getCorrectNumberOfGuests_int" classname="EventTest" time="0.001"/>
+  <testcase name="newEvent_instantiatesCorrectly" classname="EventTest" time="0.0"/>
+  <testcase name="calcPrice_oneArgumentToCalcPrice_int" classname="EventTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
